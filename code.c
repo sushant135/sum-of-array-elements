@@ -11,7 +11,11 @@ int main()
   {
     scanf("%d",&arr[i]);
   }
- 
+  //calculating sum of entered array elements
+  for(int i=0; i<size; i++)
+  {
+    sum+=arr[i];
+  }
   printf("Sum of array elements is: %d",sum);
 
   return 0;
